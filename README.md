@@ -12,7 +12,7 @@ Addis Cup Coffee House is a conversion-focused digital storefront for a cafe bus
 2. They browse the menu by category and view product cards optimized for fast image loading and smooth transitions.
 3. Coffee items open a "Build Your Coffee" modal so customers can personalize size, milk, and sugar preferences.
 4. Contact and location pages make it easy to call, find the shop, or send inquiries.
-5. Lightweight API routes handle contact and auth flows, keeping the app dynamic and ready for growth.
+5. Lightweight API routes handle contact flows, keeping the app dynamic and ready for growth.
 
 ## How It Helps Business Grow
 
