@@ -1,0 +1,28 @@
+{
+  "name": "coffee-shop-website",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cloudinary/url-gen": "^1.22.0",
+    "cloudinary": "^2.9.0",
+    "framer-motion": "^12.9.2",
+    "next": "^16.2.0",
+    "next-cloudinary": "^6.17.5",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "dotenv": "^17.3.1",
+    "eslint": "^9.24.0",
+    "eslint-config-next": "^15.3.2",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "tailwindcss": "^4.1.12"
+  }
+}
