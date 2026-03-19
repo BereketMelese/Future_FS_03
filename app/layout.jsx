@@ -6,16 +6,26 @@ import Footer from "@/src/components/layout/Footer";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-body",
+  preload: true,
+  display: "swap",
 });
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-heading",
+  preload: false,
+  display: "swap",
 });
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export const metadata = {
   title: "Addis Cup Coffee House",
   description: "Crafted coffee experience with a cozy, premium atmosphere.",
+  metadataBase: new URL(siteUrl),
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
