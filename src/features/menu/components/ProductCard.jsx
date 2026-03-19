@@ -5,7 +5,7 @@ import { memo, useEffect, useMemo, useState } from "react";
 import Button from "@/src/components/ui/Button";
 import { resolveProductImageUrl } from "@/src/lib/image-url";
 
-const formatPrice = (value) => `ETB${value.toFixed(2)}`;
+const formatPrice = (value) => `ETB ${value.toFixed(2)}`;
 const CARD_IMAGE_SIZES =
   "(min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw";
 const MENU_SHIMMER_BLUR_DATA_URL =
